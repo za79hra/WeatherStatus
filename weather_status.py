@@ -40,5 +40,4 @@ def get_weather_for_cities():
     for city in cities:
         get_weather_status.delay(city)
 
-if __name__ == '__main__':
-    app.start()
+
